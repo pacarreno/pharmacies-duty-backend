@@ -3,12 +3,16 @@ package com.audienceview.pharmaciesduty.client.response;
 import com.audienceview.pharmaciesduty.config.FlexibleDoubleDeserializer;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * Pharmacy response from the API
  */
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 @Builder
 public class PharmacyResponse {
